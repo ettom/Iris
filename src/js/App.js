@@ -157,9 +157,9 @@ export class App extends React.Component {
     }
     uiActions.getBroadcasts();
 
-    if (!initial_setup_complete) {
-      history.push('/initial-setup');
-    }
+    // if (!initial_setup_complete) {
+    //   history.push('/initial-setup');
+    // }
   }
 
   componentDidUpdate({

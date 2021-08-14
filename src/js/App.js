@@ -152,9 +152,7 @@ export class App extends React.Component {
     // Fire up our services
     mopidyActions.connect();
     pusherActions.connect();
-    if (snapcast_enabled) {
-      snapcastActions.connect();
-    }
+    snapcastActions.connect();
     uiActions.getBroadcasts();
 
     // if (!initial_setup_complete) {
